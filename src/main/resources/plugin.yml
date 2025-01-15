@@ -1,0 +1,4 @@
+name: Statehood
+version: '${version}'
+main: mafiaprod.Statehood
+api-version: '1.21'
