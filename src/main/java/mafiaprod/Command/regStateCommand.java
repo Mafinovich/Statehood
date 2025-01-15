@@ -13,6 +13,7 @@ public class regStateCommand implements CommandExecutor {
         if(!(isPlayer(sender))) return false;
 
 
+
         return true;
     }
 }
