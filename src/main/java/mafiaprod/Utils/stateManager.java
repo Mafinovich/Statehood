@@ -2,6 +2,7 @@ package mafiaprod.Utils;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 public class stateManager {
     private static final List<State> states = new ArrayList<>();
@@ -10,11 +11,11 @@ public class stateManager {
         states.add(state);
     }
 
-    public static boolean isPlayerRuler(String playerName) {
+    public static boolean isPlayerRuler(UUID player) {
         for (State state : states) {
-            //if (state.getState_ruler().equalsIgnoreCase(playerName)) {
-            //    return true;
-           // }
+            if (state.getState_ruler().equals(player)) {
+                return true;
+            }
         }
         return false;
     }
