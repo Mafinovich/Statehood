@@ -1,5 +1,6 @@
 package mafiaprod.Utils;
 
+import mafiaprod.Utils.Predetermined.Polity;
 import org.bukkit.Location;
 
 import java.util.List;
@@ -9,7 +10,7 @@ public class State {
     //Основное
     private String state_name;
     private String state_desc;
-    private String polit_system;
+    private Polity polit_system;
     private UUID state_ruler;
     private List<UUID> citz_list;
     private List<Location> border;
@@ -18,8 +19,11 @@ public class State {
     private int treasury;
     private int military_force;
 
+    //Хуета
+    private int step = 0;
 
-    public State(String state_name, String state_desc, String polit_system,
+
+    public State(String state_name, String state_desc, Polity polit_system,
                  UUID state_ruler, List<UUID> citz_list, List<Location> border) {
         this.state_name = state_name;
         this.state_desc = state_desc;
@@ -40,7 +44,7 @@ public class State {
         this.state_desc = state_desc;
     }
 
-    public void changePolit_system(String polit_system){
+    public void changePolit_system(Polity polit_system){
         this.polit_system = polit_system;
     }
 
@@ -60,12 +64,12 @@ public class State {
         this.treasury = new_value;
     }
 
-    public void changeMilitary_force(int value, String type){
-        if(type.equals("+")){
+    public void changeMilitary_force(int value, Boolean type){
+        if(type = true){
             if(this.military_force + value <= this.citz_list.size()){
                 this.military_force = this.military_force + value;
             }
-        } else if (type.equals("-")) {
+        } else {
             if(this.military_force - value > 0){
                 this.military_force = this.military_force - value;
             }
@@ -80,7 +84,7 @@ public class State {
         return state_desc;
     }
 
-    public String getPolit_system(){
+    public Polity getPolit_system(){
         return polit_system;
     }
 
@@ -102,5 +106,13 @@ public class State {
 
     public int getMilitary_force(){
         return military_force;
+    }
+
+    public int getStep(){
+        return step;
+    }
+
+    public void nextStep(){
+        step++;
     }
 }

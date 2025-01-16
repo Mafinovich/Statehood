@@ -9,9 +9,9 @@ import org.bukkit.entity.Player;
 import static mafiaprod.Utils.generalModel.isPlayer;
 import static mafiaprod.Utils.stateManager.isPlayerRuler;
 
-
-
 public class regStateCommand implements CommandExecutor {
+    public static String[] WaitingMessageType = new String[] {"Name", "Desc", "Polity", "Border"};
+
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if(!(isPlayer(sender))) return false;
