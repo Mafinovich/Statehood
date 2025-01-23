@@ -2,3 +2,12 @@ name: Statehood
 version: '${version}'
 main: mafiaprod.Statehood
 api-version: '1.21'
+commands:
+  regState:
+    description: Запуск процесса регистрации страны
+    permission: statehood.advanced_player
+    usage: /regstate
+
+permissions:
+  statehood.advanced_player:
+    description: Игрок наигравший 20 часов, дает возможность регистрировать страну

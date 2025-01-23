@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df7610fa-062e-4a96-9c9c-de43db32460a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mafiaprod/Utils/Predetermined/Polity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mafiaprod/Utils/polityManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Statehood.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/Statehood.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/mafiaprod.Statehood.main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mafiaprod/Command/regStateCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mafiaprod/Command/regStateCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mafiaprod/Listener/ChatListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mafiaprod/Listener/ChatListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mafiaprod/Utils/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mafiaprod/Utils/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mafiaprod/Utils/stateManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mafiaprod/Utils/stateManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mafiaprod/Statehood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mafiaprod/Statehood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,23 +31,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2rhFOvIpdPDSFwSeAuR5cojSiAO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "dev",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
