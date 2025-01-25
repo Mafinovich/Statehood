@@ -28,6 +28,7 @@ public class regStateCommand implements CommandExecutor {
         }
 
         ChatListenerManager.addPlayer(playerUUID);
+        player.sendTitle("Введите название вашей страны.", "", 10, 10, 10);
 
         return true;
     }

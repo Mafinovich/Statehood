@@ -7,7 +7,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
-import mafiaprod.Utils.polityManager;
+import mafiaprod.Utils.Predetermined.polityManager;
 
 import java.util.UUID;
 

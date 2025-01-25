@@ -1,6 +1,4 @@
-package mafiaprod.Utils;
-
-import mafiaprod.Utils.Predetermined.Polity;
+package mafiaprod.Utils.Predetermined;
 
 import java.util.ArrayList;
 import java.util.List;
